@@ -1,0 +1,9 @@
+i=4
+d=4.0
+a="Git Hub"
+sum=i+12 
+print(sum)
+su=d+4.0
+print(su)
+sums=a+" is for to store coding "
+print(sums)
