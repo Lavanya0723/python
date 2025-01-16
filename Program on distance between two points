@@ -1,0 +1,20 @@
+import java.util.*;
+import static java.lang.Math.*;
+class Distance
+{
+public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+   System.out.print("Enter x1 value:");
+   float x1=sc.nextFloat();
+   System.out.print("Enter x2 value:");
+   float x2=sc.nextFloat();
+  System.out.print("Enter y1 value:");
+   float y1=sc.nextFloat();
+ System.out.print("Enter y2 value:");
+  float y2=sc.nextFloat();
+  double d;
+  d=sqrt(pow(x1-x2,2)+pow(y1-y2,2));
+ System.out.println("Distance:"+d);
+}
+} 
