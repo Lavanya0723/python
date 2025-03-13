@@ -1,0 +1,6 @@
+/*Output:
+STRING MANIPULATION EXERCISE 
+String concatenation is done using a "+" sign 
+e.g - print("Hello"+"Jenny")*/
+
+print('STRING MANIPULATION EXERCISE \nString concatenation is done using a "+" sign \ne.g - print("Hello"+"Jenny")')
