@@ -1,0 +1,7 @@
+/*output:
+Enter a value:4
+50.24
+*/
+f=float(input("Enter a value"))
+area=3.14*f*f
+print(area)
