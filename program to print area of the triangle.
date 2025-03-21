@@ -1,0 +1,9 @@
+/*output:
+Enter height:12
+Enter breadth:3
+18.0
+*/
+h=int(input("Enter height: "))
+b=int(input("Enter breadth: "))
+area=0.5*h*b
+print(area)
