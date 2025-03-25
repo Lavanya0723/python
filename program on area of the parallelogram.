@@ -1,0 +1,8 @@
+/*output:
+enter height:12
+enter breadth:3
+area of the parallelogram:36.0*/
+h=float(input("enter height:"))
+b=float(input("enter breadth:"))
+area=h*b
+print("area of the parallelogram:",area)
