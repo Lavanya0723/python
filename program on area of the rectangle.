@@ -1,0 +1,10 @@
+/*output:
+enter length:12
+enter breadth:2
+area of the rectangle:24.0
+*/
+
+l=float(input("enter length:"))
+b=float(input("enter breadth:"))
+area=l*b
+print("area of the rectangle:",area)
