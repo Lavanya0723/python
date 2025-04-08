@@ -1,0 +1,22 @@
+/*output:
+Enter n value:4
+0
+0 1 
+0 1 2
+0 1 2 3
+*/
+import java.util.*;
+class Pattern3{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter n value:");
+        int n=sc.nextInt();
+        int row,col;
+        for(row=0;row<n;row++){
+        for(col=0;col<=row;col++){
+        System.out.print(col+" "); 
+         } 
+         System.out.println(); 
+        }   
+     }
+}
